@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CrazyMath</string>
+    <string name="txt_fun">Try it! Bro :)\n🙂😀😄😊😍</string>
+    <string name="txt_ready">Are you ready?</string>
+    <string name="txt_ok">Let\'s play</string>
+    <string name="txt_lose">You lose!!!</string>
+    <string name="txt_play_again">Play again</string>
+    <string name="more" />
+    <string name="ic_play" />
+    <string name="ic_more" />
+    <string name="play" />
+    <string name="ic_title" />
+    <string name="score_0">Score: 0</string>
+    <string name="best_17">Best: 17</string>
+    <string name="_8">8</string>
+    <string name="_3_5">3+5=?</string>
+    <string name="_6">6</string>
+    <string name="_2">2</string>
+</resources>

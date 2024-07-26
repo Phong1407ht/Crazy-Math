@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_10">
+
+        <com.techja.crazymath.view.widget.CrazyTextView
+            android:id="@+id/tv_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/score_0"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+        <com.techja.crazymath.view.widget.CrazyTextView
+            android:id="@+id/tv_best"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="@string/best_17"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+    </TableRow>
+
+    <com.techja.crazymath.view.widget.CrazyTextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="60sp" />
+
+
+    <com.techja.crazymath.view.widget.CrazyTextView
+        android:id="@+id/tv_expression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/_3_5"
+        android:textColor="@color/white"
+        android:textSize="80sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/d_50"
+        android:background="@color/colorRedAlpha"
+        android:padding="@dimen/d_5">
+
+        <com.techja.crazymath.view.widget.CrazyTextView
+            android:id="@+id/tv_answer_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:gravity="center"
+            android:text="@string/_8"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/d_50"
+        android:layout_marginTop="@dimen/d_20"
+        android:background="@color/colorGreenAlpha"
+        android:padding="@dimen/d_5">
+
+        <com.techja.crazymath.view.widget.CrazyTextView
+            android:id="@+id/tv_answer_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:text="@string/_6"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/d_50"
+        android:layout_marginTop="@dimen/d_20"
+        android:background="@color/colorYellowAlpha"
+        android:padding="@dimen/d_5">
+
+        <com.techja.crazymath.view.widget.CrazyTextView
+            android:id="@+id/tv_answer_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:gravity="center"
+            android:text="@string/_2"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </FrameLayout>
+</LinearLayout>
